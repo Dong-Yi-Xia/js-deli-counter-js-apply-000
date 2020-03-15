@@ -20,8 +20,8 @@ function currentLine(line){
   }
   let sentence = "The line is currently: "
   for (let i = 0; i < line.length; i++){
-    let name = line[i]
-    sentence += `${i}. ${name}, `
+    let name = line[i] 
+    sentence += `${i+1}. ${name}, `
   }
   return sentence
 }
