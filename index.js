@@ -19,9 +19,10 @@ function currentLine(line){
     return "The line is currently empty."
   }
   let sentence = "The line is currently: "
+  let everyone = []
   for (let i = 0; i < line.length; i++){
     let name = line[i]
-    sentence += `${i+1}. ${name}, `
+    let listName = `${i+1}. ${name}`
   }
   return sentence
 }
