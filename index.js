@@ -20,6 +20,6 @@ function currentLine(line){
   }
   let sentence = ""
   for (let i = 0; i < line.length; i++){
-    
+
   }
 }
