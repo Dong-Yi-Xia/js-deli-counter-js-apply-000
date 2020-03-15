@@ -18,5 +18,8 @@ function currentLine(line){
   if(line.length < 1){
     return "The line is currently empty."
   }
-
+  let sentence = ""
+  for (let i = 0; i < line.length; i++){
+    
+  }
 }
