@@ -4,3 +4,7 @@ function takeANumber(line, name){
   let phrase = `Welcome, ${name}. You are number ${curNum} in line.`
   return phrase
 }
+
+function nowServing(line){
+  
+}
