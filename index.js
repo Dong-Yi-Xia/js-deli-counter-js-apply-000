@@ -21,8 +21,8 @@ function currentLine(line){
   let sentence = "The line is currently: "
   let everyone = []
   for (let i = 0; i < line.length; i++){
-    let name = line[i]
-    let listName = `${i+1}. ${name}`
+    let curName = line[i]
+    let listName = `${i+1}. ${curName}`
   }
   return sentence
 }
