@@ -23,4 +23,5 @@ function currentLine(line){
     let name = line[i]
     sentence += `${i}. ${name}, `
   }
+  return sentence
 }
