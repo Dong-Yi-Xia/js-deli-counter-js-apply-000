@@ -25,5 +25,5 @@ function currentLine(line){
     let listName = `${i+1}. ${curName}`
     everyone.push(listName)
   }
-  return sentence + everyone.join(",")
+  return sentence + everyone.join(" , ")
 }
