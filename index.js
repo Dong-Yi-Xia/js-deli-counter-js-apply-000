@@ -23,6 +23,7 @@ function currentLine(line){
   for (let i = 0; i < line.length; i++){
     let curName = line[i]
     let listName = `${i+1}. ${curName}`
+    everyone.push(listName)
   }
-  return sentence
+  return sentence + everyone.join(",")
 }
