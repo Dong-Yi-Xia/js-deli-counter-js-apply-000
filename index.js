@@ -12,3 +12,8 @@ function nowServing(line){
   let serving = line.shift()
   return `Currently serving ${serving}.`
 }
+
+
+function currentLine(line)
+
+
