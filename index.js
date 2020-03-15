@@ -18,9 +18,9 @@ function currentLine(line){
   if(line.length < 1){
     return "The line is currently empty."
   }
-  let sentence = ""
+  let sentence = "The line is currently: "
   for (let i = 0; i < line.length; i++){
     let name = line[i]
-    sentence +=
+    sentence += `${i}. ${name}, `
   }
 }
